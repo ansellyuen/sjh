@@ -1,0 +1,25 @@
+<!DOCTYPE css>
+#title{
+    color:black;
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 50;
+}
+#status{
+    color:black;
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 50;
+}
+#socialmedia{
+    color:black;
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 25;
+}
+#inquery{
+    color:aqua;
+}
+body{
+    background-color: whitesmoke;
+}
