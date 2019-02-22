@@ -1,0 +1,127 @@
+
+@font-face {
+font-family: 'BigNoodleTitling';
+font-style: normal;
+font-weight: normal;
+src: local('BigNoodleTitling'), url('big_noodle_titling.woff') format('woff');
+}
+html{
+    background-color: ghostwhite;
+}
+/* import font-family */
+body{
+    
+    color:black;
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+#navbar{
+    background-color: white;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width:240px;
+    height: 100%;
+    padding-right:10px;
+    border-right: 5px solid;
+}
+
+#navbar a{
+    font-size: 30px;
+    
+}
+#navbar h1{
+    font-size: 50px;
+}
+#navbar a:link, a:visited{
+        color:black; 
+        text-decoration-line: none;
+    }
+
+#navbar a:hover, a:active{
+    color:lightgray;        
+    }
+
+#logo{
+    width: 240px;
+    height: 240px;
+}
+#home{
+    background-color:white;
+    padding: 0px;
+    height: 92vh;
+    margin-left: 290px;
+    margin-right: 40px;
+}
+
+footer{
+    background-color:white;
+    width: auto;
+    height:50px;
+    margin-left: 290px;
+    margin-right: 40px;
+    margin-top: 10px;
+    text-align:right;
+    
+    
+}
+.tokens img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    text-align:left;
+
+}
+
+@media screen and (max-width: 700px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  #navbar a {
+      float: left;
+      padding: 5%;
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
+  #home {
+      margin-left: 0;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+        padding-right:10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  #navbar a {
+    text-align: center;
+    padding: 5px;
+    float: none;
+  }
+
+}
+
+
+.highlight{
+    padding-top: 5%;
+    font-size:30px;
+    text-align: center;
+}
+#frontpageimg{
+    border: 5px solid;
+    padding: 25px;
+    background-color:white;
+}
+
+.shop{
+    text-decoration-line:line-through;
+    font-size: 30px;
+
+}
