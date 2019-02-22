@@ -1,7 +1,7 @@
 /* 02/22/2019 */
 @font-face {
 font-family: 'BigNoodleTitling';
-src: url('../bignoodle-tiling-webfont/big_noodle_titling.woff') format('woff');
+src: url('big_noodle_titling.woff') format('woff');
 font-style: normal;
 font-weight: normal;
 }
