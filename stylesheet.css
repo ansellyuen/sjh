@@ -1,4 +1,4 @@
-
+/* 02/22/2019 */
 @font-face {
 font-family: 'BigNoodleTitling';
 font-style: normal;
@@ -51,7 +51,7 @@ body{
 #home{
     background-color:white;
     padding: 0px;
-    height: 90vh;
+    height: 80vh;
     margin-left: 290px;
     margin-right: 40px;
 }
