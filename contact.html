@@ -36,11 +36,13 @@
             <?=$thankYou ?>
 
             <div class="container">
-                <form action="/action_page.php">
-                    <input type="text" id="name" name="sender" placeholder="Name">
+                <form action="contact.php">
+                    <input type="text" id="sender" name="sender" placeholder="Name">
                     <br>
-                    <input type="text" id="email" name="senderEmail" placeholder="Email">
-                    <br><br><br>
+                    <input type="text" id="senderEmail" name="senderEmail" placeholder="Email">
+                    <br>
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                    <br><br>
                     <textarea id="message" name="message" placeholder="Message" style="height:30vh"></textarea>
                     <br>
                     <input type="submit" value="Submit">

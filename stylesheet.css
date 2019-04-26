@@ -36,7 +36,8 @@ input[type=text], select, textarea {
     resize: none;
 }
 textarea{
-    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    border: 0px solid #ccc;
 }
 input:focus, textarea:focus{
     outline: none !important;
@@ -44,14 +45,20 @@ input:focus, textarea:focus{
 }
 
 input[type=submit] {
-    font-size: 24px;
+    padding:12px;
   color: black;
     background: white;
   border: none;
   cursor: pointer;
+            -webkit-transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -o-transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out;
 }
 
 input[type=submit]:hover {
+    transition: 0.6s;
+    
   background-color: whitesmoke;
 }
 /*====================================================*/
