@@ -4,9 +4,9 @@ if((!isset($_POST['submit'])) {
     echo 'Error; You need to submit the form.'
 }
     $recipient="ansellyuen@gmail.com";
-    $subject="Contact Us Message";
     $sender=$_POST["sender"];
     $senderEmail=$_POST["senderEmail"];
+    $subject=$_POST["subject"];
     $message=$_POST["message"];
 //validate first
 if(empty($sender)||empty($senderEmail)||empty($message))
